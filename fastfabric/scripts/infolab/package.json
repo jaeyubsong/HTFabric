@@ -1,0 +1,18 @@
+{
+  "name": "fabric-benchmarker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --outDir dist src/Main.ts",
+    "start": "node dist/Main.js"
+  },
+  "dependencies": {
+    "fabric-network": "1.4.11",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/redis": "^2.8.25",
+    "typescript": "^3.9.7"
+  }
+}

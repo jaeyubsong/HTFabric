@@ -1,0 +1,20 @@
+OrdererOrgs:
+- Name: Orderer
+  Domain: jjo.kr
+  Specs:
+    - Hostname: orderer0
+PeerOrgs:
+- Name: Org1
+  Domain: org1.jjo.kr
+  EnableNodeOUs: true
+  Specs:
+    - Hostname: fast
+    - Hostname: mars05
+    - Hostname: mars04
+    - Hostname: mars03
+    - Hostname: mars02
+    
+    - Hostname: data
+    
+  Users:
+    Count: 1
